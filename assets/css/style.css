@@ -1,0 +1,94 @@
+* {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 0.5rem;
+  align-items: center;
+  height: 100%;
+}
+
+header {
+  width: 40vw;
+  margin-left: 30%;
+}
+
+.title {
+  border-top: 1px solid rgb(0, 174, 255);
+  border-bottom: 1px solid rgb(0, 174, 255);
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.conversorContainer {
+  margin-top: 1rem;
+  background-color: #6c757d;
+  width: 15vw;
+  align-self: center;
+  border-radius: 5px;
+}
+
+.conversorTitle {
+  text-align: center;
+  margin-top: 1rem;
+  background-color: #6c757d;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.pesosInput {
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+  height: 3.5vh;
+  width: 70%;
+  margin-top: 0.5rem;
+}
+
+.coinToConvert {
+  background-color: #6c757d;
+  margin-top: 0.5rem;
+  font-size: small;
+}
+
+.coinSelector {
+  background-color: white;
+  color: gray;
+  margin-top: 0.5rem;
+  width: 70%;
+  height: 3.5vh;
+}
+
+.convertButton {
+  background-color: rgb(59, 218, 253);
+  width: 70%;
+  border: none;
+  height: 3.5vh;
+  border-radius: 3px;
+  margin-top: 1rem;
+}
+
+.result {
+  background-color: #6c757d;
+  margin-top: 0.5rem;
+  font-size: larger;
+  margin-bottom: 1rem;
+}
+
+.chartContainer {
+  margin-top: 2rem;
+  margin-left: 5%;
+  width: 90vw;
+  height: 53vh;
+}
